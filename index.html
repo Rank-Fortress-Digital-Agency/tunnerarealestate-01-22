@@ -1,172 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        * {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+      section {
+        margin-bottom: 60px;
+      }
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: firebrick;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s transform ease-in-out;
+      }
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+      h1 {
+        font-size: 34px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+      img {
+        max-width: 100%;
+      }
+      .two-col {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .two-col div {
+        width: 50%;
+      }
+      @media only screen and (max-width: 900px) {
         body {
-            padding: 40px 10%;
-            background: #F5F5F5;
-        }
-        .main-wrapper {
-            background: white;
-            padding: 40px;
-        }
-        section {
-            margin-bottom: 60px;
-        }
-        section.head,
-        section.youtube-embed {
-            text-align: center;
-        }
-        .button-link {
-            display: block;
-            margin: 20px 0 0 0;
-            padding: 10px 40px;
-            width: fit-content;
-            background: firebrick;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            transition: .3s transform ease-in-out;
-        }
-        .button-link:hover {
-            transform: scale(1.05);
-        }
-        h1 {
-            font-size: 34px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        p {
-            text-align: justify;
-            margin-bottom: 10px;
-            line-height: 1.5rem;
-        }
-        img {
-            max-width: 100%;
+          padding: 0;
         }
         .two-col {
-            display: flex;
-            justify-content: space-around;
-            gap: 20px;
+          flex-direction: column;
         }
         .two-col div {
-            width: 50%;
+          width: 100%;
         }
-        @media only screen and (max-width: 900px) {
-            body {
-                padding: 0;
-            }
-            .two-col {
-                flex-direction: column;
-            }
-            .two-col div {
-                width: 100%;
-            }
-            .main-wrapper {
-                padding: 5%;
-            }
+        .main-wrapper {
+          padding: 5%;
         }
+      }
     </style>
-    <title>What should be included in a real estate appraisal? | Tunnera Real Estate</title>
-</head>
-<body>
+    <title>
+      What should be included in a real estate appraisal? | Tunnera Real Estate
+    </title>
+  </head>
+  <body>
     <div class="main-wrapper">
-        <section style="background-image: url(https://tunnerarealestate.com/wp-content/uploads/2021/08/yellow-sofa-wooden-table-living-room-interior-with-plant.jpg); background-size: cover; background-repeat: no-repeat; background-attachment:fixed; display: flex; flex-direction: column; justify-content: center; min-height: 500px; padding: 20px; box-shadow: inset 0 0 0 2000px #f6f6f77a;" class="head">
-            <h1 style="color: #b00">What should be included in a real estate appraisal?</h1>
-        </section>
+      <section
+        style="
+          background-image: url(https://tunnerarealestate.com/wp-content/uploads/2021/08/yellow-sofa-wooden-table-living-room-interior-with-plant.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          min-height: 500px;
+          padding: 20px;
+          box-shadow: inset 0 0 0 2000px #f6f6f77a;
+        "
+        class="head"
+      >
+        <h1 style="color: #b00">
+          What should be included in a real estate appraisal?
+        </h1>
+      </section>
 
-        <section style="padding: 0 40px 0 40px;">
-            <div class="two-col">
-                
-                <div style="display:flex; flex-direction: column; justify-content: center">
-                    <p>Real estate appraisals are the evaluation of a property’s worth. This is typically done for mortgages, insurance claims, or divorce proceedings. The process includes <a href="https://tunnerarealestate.com/the-value-of-an-inspection-for-buyers-and-sellers/">inspecting the property and determining its value</a> based on comparable properties that have recently sold in the area. A realtor may also be involved in helping to determine an accurate <a href="https://tunnerarealestate.com/common-mistakes-that-sellers-make-when-listing-a-home-on-the-market/">market value for the home</a> being assessed.</p>
-                    <p>These may include appliances, light fixtures, and lawn equipment. It is then compared to similar houses that have recently been sold in the area to determine what they were worth. Less expensive items not normally found in other homes may also be added. For instance, if there was an old wading pool in the backyard when inspections occurred for comparables, it would be noted as being part of the value. An inspector would add this information and note that it did not come with any pool equipment or chemicals (if applicable).</p>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/geougc/AF1QipOMCbQlceC6mVHIeotyvqYKJPTHK6c8TsxIK_Iv=h400-no" alt="Real Estate Agency Marlborough">
-                </div>
-            </div>
-            <a class="button-link"
-                href="https://tunnerarealestate.com/what-should-be-included-in-a-real-estate-appraisal/">Read Post</a>
-        </section>
+      <section style="padding: 0 40px 0 40px">
+        <div class="two-col">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <p>
+              Real estate appraisals are the evaluation of a property’s worth.
+              This is typically done for mortgages, insurance claims, or divorce
+              proceedings. The process includes
+              <a
+                href="https://tunnerarealestate.com/the-value-of-an-inspection-for-buyers-and-sellers/"
+                >inspecting the property and determining its value</a
+              >
+              based on comparable properties that have recently sold in the
+              area. A realtor may also be involved in helping to determine an
+              accurate
+              <a
+                href="https://tunnerarealestate.com/common-mistakes-that-sellers-make-when-listing-a-home-on-the-market/"
+                >market value for the home</a
+              >
+              being assessed.
+            </p>
+            <p>
+              These may include appliances, light fixtures, and lawn equipment.
+              It is then compared to similar houses that have recently been sold
+              in the area to determine what they were worth. Less expensive
+              items not normally found in other homes may also be added. For
+              instance, if there was an old wading pool in the backyard when
+              inspections occurred for comparables, it would be noted as being
+              part of the value. An inspector would add this information and
+              note that it did not come with any pool equipment or chemicals (if
+              applicable).
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://lh3.googleusercontent.com/geougc/AF1QipOMCbQlceC6mVHIeotyvqYKJPTHK6c8TsxIK_Iv=h400-no"
+              alt="Real Estate Agency Marlborough"
+            />
+          </div>
+        </div>
+        <a
+          class="button-link"
+          href="https://tunnerarealestate.com/what-should-be-included-in-a-real-estate-appraisal/"
+          >Read Post</a
+        >
+      </section>
 
-        <section>
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/yWiawkOX4xM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+      <section>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/yWiawkOX4xM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section>
-            <h2 style="color: #b00;">The appraiser will need to know the location and size of your property</h2>
-            <p>To determine its value, they will want a detailed description of the house, including any special features or renovations you’ve made. They may also ask for an appraisal report from a previous seller if you are selling the home and it is comparable in size and quality to other homes in your area. The appraisal report will provide the details of what your property is worth, not how much you want for it. The lower this value falls below the purchase price offered by the buyer, the more likely they are to renegotiate or walk away from the sale completely. It is therefore important that you make a realistic offer based on both an informed decision and professional advice.</p>
-            <p>A good appraiser will have extensive knowledge of the local housing market. They will know what comparable homes look like and how much they typically cost, as well as the average size and quality of homes in the area. In addition to these details, an appraisal report may include your location information, a description of the property itself, its square footage, the number of bedrooms and bathrooms, special features such as fireplaces or pools, and any renovation work completed on it since it was built.</p>
-            <a class="button-link"
-                href="https://tunnerarealestate.com/">Visit Us</a>
-        </section>
+      <section>
+        <h2 style="color: #b00">
+          The appraiser will need to know the location and size of your property
+        </h2>
+        <p>
+          To determine its value, they will want a detailed description of the
+          house, including any special features or renovations you’ve made. They
+          may also ask for an appraisal report from a previous seller if you are
+          selling the home and it is comparable in size and quality to other
+          homes in your area. The appraisal report will provide the details of
+          what your property is worth, not how much you want for it. The lower
+          this value falls below the purchase price offered by the buyer, the
+          more likely they are to renegotiate or walk away from the sale
+          completely. It is therefore important that you make a realistic offer
+          based on both an informed decision and professional advice.
+        </p>
+        <p>
+          A good appraiser will have extensive knowledge of the local housing
+          market. They will know what comparable homes look like and how much
+          they typically cost, as well as the average size and quality of homes
+          in the area. In addition to these details, an appraisal report may
+          include your location information, a description of the property
+          itself, its square footage, the number of bedrooms and bathrooms,
+          special features such as fireplaces or pools, and any renovation work
+          completed on it since it was built.
+        </p>
+        <a class="button-link" href="https://tunnerarealestate.com/"
+          >Visit Us</a
+        >
+      </section>
 
-        <section style="padding: 30px; background-color: #b00; border-radius: 5px;">
-            <h2 style="text-align:center; color: #fff">They will also want to know what condition the house is in</h2>
-            <br>
-            <div class="two-col">
-                <div style="display:flex; justify-content: center;"> 
-                    <img style="width: 500px;" src="https://lh3.googleusercontent.com/geougc/AF1QipOUp6S7mezA7mmO_By7LyF48aEnTI7Llmj_-DjG=h400-no" alt="Real Estate Agency Marlborough">
-                </div>
-                <div style="display:flex; flex-direction: column; justify-content: center">
-                    <p style="color:#fff">The appraisal process for a house is the act of determining an estimate of its value. Appraisals can be done for many reasons, but they are mostly used in connection with property transactions. The appraiser will look at comparable houses that have recently sold or were listed and compare them to the subject property. They will also want to know what condition the house is in, including any damages or structural issues. Once they’ve looked it over and taken all this into account, then they’ll do their best to determine how much it should sell for on today’s market. While there are other ways by which appraisers may calculate a home’s worth (such as using data from public records), most appraisals still use one of the two traditional methodologies: the cost approach and the sales comparison approach. And, while each appraisal method can result in slightly different values for a home, there is no standard “correct” way to determine its worth.</p>
-                </div>
-            </div>
+      <section
+        style="padding: 30px; background-color: #b00; border-radius: 5px"
+      >
+        <h2 style="text-align: center; color: #fff">
+          They will also want to know what condition the house is in
+        </h2>
+        <br />
+        <div class="two-col">
+          <div style="display: flex; justify-content: center">
+            <img
+              style="width: 500px"
+              src="https://lh3.googleusercontent.com/geougc/AF1QipOUp6S7mezA7mmO_By7LyF48aEnTI7Llmj_-DjG=h400-no"
+              alt="Real Estate Agency Marlborough"
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <p style="color: #fff">
+              The appraisal process for a house is the act of determining an
+              estimate of its value. Appraisals can be done for many reasons,
+              but they are mostly used in connection with property transactions.
+              The appraiser will look at comparable houses that have recently
+              sold or were listed and compare them to the subject property. They
+              will also want to know what condition the house is in, including
+              any damages or structural issues. Once they’ve looked it over and
+              taken all this into account, then they’ll do their best to
+              determine how much it should sell for on today’s market. While
+              there are other ways by which appraisers may calculate a home’s
+              worth (such as using data from public records), most appraisals
+              still use one of the two traditional methodologies: the cost
+              approach and the sales comparison approach. And, while each
+              appraisal method can result in slightly different values for a
+              home, there is no standard “correct” way to determine its worth.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section>
+        <h2 style="color: #b00; text-align: center">
+          They'll take pictures of all the rooms in your home and make notes
+        </h2>
+        <br />
 
-        <section>
-            <h2 style="color: #b00; text-align: center;">They'll take pictures of all the rooms in your home and make notes</h2>
-            <br>
+        <div class="two-col">
+          <div style="display: flex; justify-content: center">
+            <img
+              src="https://lh3.googleusercontent.com/geougc/AF1QipNhNpz2H7lLAHAhekOhQOIFYPkhzwliRVpqZkuq=h400-no"
+              alt="Real Estate Agency Marlborough"
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <p>
+              A home appraisal is a process of determining the market value of a
+              property. This might be done to determine the fair market price in
+              anticipation of the sale, for tax assessment purposes, or because
+              someone has died and their will says that they want to give their
+              property to someone else.
+            </p>
+            <p>
+              The person who is doing an appraisal typically does not need any
+              special training concerning real estate; what they do need are
+              skills in measuring properties like area, square footage, etc., as
+              well as understanding how prices can change over time. They’ll
+              take pictures of all the rooms in your home and make notes about
+              anything they see that’s out of place or needs attention. The
+              appraiser will also look at what similar homes have sold for
+              recently (or rent for) to establish an accurate market price.
+              Compares the 1099 tax form for a total number of rooms, square
+              footage measurements (including bedrooms and bathrooms), existing
+              features, available amenities, a property inspection report from
+              previous purchasers. Examines what similar homes have sold for
+              recently (or rent for) to establish a fair market price.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="two-col">
-                <div style="display:flex; justify-content: center;">
-                <img src="https://lh3.googleusercontent.com/geougc/AF1QipNhNpz2H7lLAHAhekOhQOIFYPkhzwliRVpqZkuq=h400-no" alt="Real Estate Agency Marlborough">
-                </div>
-                <div style="display:flex; flex-direction: column; justify-content: center">
-                    <p>A home appraisal is a process of determining the market value of a property. This might be done to determine the fair market price in anticipation of the sale, for tax assessment purposes, or because someone has died and their will says that they want to give their property to someone else.</p>
-                    <p>The person who is doing an appraisal typically does not need any special training concerning real estate; what they do need are skills in measuring properties like area, square footage, etc., as well as understanding how prices can change over time. They’ll take pictures of all the rooms in your home and make notes about anything they see that’s out of place or needs attention. The appraiser will also look at what similar homes have sold for recently (or rent for) to establish an accurate market price. Compares the 1099 tax form for a total number of rooms, square footage measurements (including bedrooms and bathrooms), existing features, available amenities, a property inspection report from previous purchasers. Examines what similar homes have sold for recently (or rent for) to establish a fair market price.</p>
-                </div>
-            </div>
+      <section>
+        <h2 style="color: #b00">
+          An appraiser may require additional documentation
+        </h2>
+        <p>
+          The appraisal of a property is an estimate of its current market
+          value. Appraisers may require additional documentation such as lease
+          agreements and tax returns. The appraiser will be looking at the
+          location, size, condition, age, and other factors to determine the
+          fair market value. The appraisal report includes details on these
+          items and also lists comparable properties in the area to support
+          their findings.
+        </p>
+        <p>
+          Borrowers are often required to get a
+          <a
+            href="https://tunnerarealestate.com/what-questions-would-you-ask-real-estate-agents-before-signing-with-them/"
+            >real estate</a
+          >
+          appraisal performed when seeking a mortgage loan. The lender will
+          order an appraisal of the property by one or more appraisers. The
+          appraiser prepares their report and delivers it to the borrower and
+          lender so that both parties have access to the information in the
+          event of a lending dispute.
+        </p>
+        <br />
+        <h2 style="color: #b00">
+          The last thing an appraiser does is come up with a value for your
+          property
+        </h2>
+        <p>
+          The last thing an appraiser does is come up with a value for your
+          property. This may seem like the most difficult part, but it’s one of
+          the easiest things to do. It all depends on what you know about
+          comparable properties in your area and how long they have been on the
+          market. For example, if there are no similar homes available in your
+          neighborhood or community that sold recently, then this will be more
+          challenging than usual because we need something else to compare
+          against; however, if there are many other comparables (properties)
+          nearby which were also listed at least six months ago and yet haven’t
+          had any offers – this is where I would start my research). A
+          professional real estate appraiser can help by providing insight into
+          recent trends of market value in that particular area. Any home can be
+          thought of as “comparable” if it’s on the same level as yours. For
+          example, if you want to sell your 3-bedroom house on a quarter-acre
+          lot, then you would go out and find other homes for sale with those
+          same features.
+        </p>
+        <a
+          class="button-link"
+          href="https://google.com/maps/?cid=15317602175706169104"
+          >Find Us Here!</a
+        >
+      </section>
 
-        </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11796.014702518945!2d-71.57078!3d42.342445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4930e05cdb77f10!2sTunnera%20Real%20Estate!5e0!3m2!1sen!2sph!4v1646968968994!5m2!1sen!2sph"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          >Real%20Estate%20Agency%20Marlborough,%20MA</iframe
+        >
+      </section>
 
-        <section>
-            <h2 style="color: #b00;">An appraiser may require additional documentation</h2>
-            <p>The appraisal of a property is an estimate of its current market value. Appraisers may require additional documentation such as lease agreements and tax returns. The appraiser will be looking at the location, size, condition, age, and other factors to determine the fair market value. The appraisal report includes details on these items and also lists comparable properties in the area to support their findings.</p>
-            <p>Borrowers are often required to get a <a href="https://tunnerarealestate.com/what-questions-would-you-ask-real-estate-agents-before-signing-with-them/">real estate</a> appraisal performed when seeking a mortgage loan. The lender will order an appraisal of the property by one or more appraisers. The appraiser prepares their report and delivers it to the borrower and lender so that both parties have access to the information in the event of a lending dispute.</p><br>
-            <h2 style="color:#b00">The last thing an appraiser does is come up with a value for your property</h2>
-            <p>The last thing an appraiser does is come up with a value for your property. This may seem like the most difficult part, but it’s one of the easiest things to do. It all depends on what you know about comparable properties in your area and how long they have been on the market. For example, if there are no similar homes available in your neighborhood or community that sold recently, then this will be more challenging than usual because we need something else to compare against; however, if there are many other comparables (properties) nearby which were also listed at least six months ago and yet haven’t had any offers – this is where I would start my research). A professional real estate appraiser can help by providing insight into recent trends of market value in that particular area. Any home can be thought of as “comparable” if it’s on the same level as yours. For example, if you want to sell your 3-bedroom house on a quarter-acre lot, then you would go out and find other homes for sale with those same features.</p>
-            <a class="button-link"
-                href="https://google.com/maps/?cid=15317602175706169104">Find Us Here!</a>
-        </section>
+      <section>
+        <h2>Things to do in Marlborough, MA</h2>
+        <iframe
+          src="https://www.tripadvisor.com/Attractions-g41662-Activities-Marlborough_Massachusetts.html"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11796.014702518945!2d-71.57078!3d42.342445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4930e05cdb77f10!2sTunnera%20Real%20Estate!5e0!3m2!1sen!2sph!4v1646968968994!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">Real%20Estate%20Agency%20Marlborough,%20MA</iframe>
-        </section>
+      <section>
+        <h2>Marlborough, MA News</h2>
+        <iframe
+          src="https://www.stuff.co.nz/marlborough-express"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section>
-            <h2>Things to do in Marlborough, MA</h2>
-            <iframe src="https://www.tripadvisor.com/Attractions-g41662-Activities-Marlborough_Massachusetts.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
-
-        <section>
-            <h2>Marlborough, MA News</h2>
-            <iframe src="https://www.stuff.co.nz/marlborough-express" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
-
+      <a
+        target="_bLank"
+        href="https://rank-fortress-digital-agency.github.io/tunnerarealestate-01-22/"
+        >https://rank-fortress-digital-agency.github.io/tunnerarealestate-01-22/</a
+      ><br />
+      <a
+        target="_bLank"
+        href="http://tunnerarealestate-01-22.s3-website-ap-southeast-1.amazonaws.com/"
+        >http://tunnerarealestate-01-22.s3-website-ap-southeast-1.amazonaws.com/</a
+      ><br />
+      <a target="_bLank" href="https://sleepy-lamarr-9b1ded.netlify.app/"
+        >https://sleepy-lamarr-9b1ded.netlify.app/</a
+      >
     </div>
-</body>
+  </body>
 </html>
